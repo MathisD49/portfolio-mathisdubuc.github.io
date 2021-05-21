@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Portfolio Mathis Dubuc</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Haut de la page -->
+    <header>
+      <div>
+        <!-- bandeau de navigation -->
+        <nav class="nav_menu">
+          <span class="text_white"><a href="#whoami">Qui suis-je ?</a></span>
+          <span class="text_white"><a href="#career">Parcours</a></span>
+          <span class="text_white"><a href="#skills">Compétences</a></span>
+          <span class="text_white"><a href="#project">Projets</a></span>
+        </nav>
+      </div>
+      <div class="page_title">
+        <h1>Mathis Dubuc</h1>
+        <h2>Étudiant en informatique</h2>
+      </div>
+    </header>
+    <!-- contient profil, centres d'intérêts, contact et photo + lien cv -->
+    <div class="whoami" id="whoami">
+      <h2>Qui suis-je ?</h2>
+      <div class="content_whoami">
+        <!-- profil, centres d'intérêt et contact -->
+        <div class="informations_whoami">
+          <p>Lorem ipsum dolor sit amet. Ut eveniet enim sed quos tenetur ut fugiat voluptas quo voluptatibus voluptas hic sequi quas sed dignissimos dolor. Ut accusantium deleniti cum rerum voluptatibus sed quam accusamus? Quo nesciunt voluptatem non consequatur deserunt eos harum quaerat et voluptas iure.</p>
+          <div class="point_interest">
+            <h3 class="title_informations">Centres d'intérêt</h3>
+            <ul>
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum dolor</li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h3 class="title_informations">Contact</h3>
+            <div class="contact_content">
+              <address>20 rue exemple, 49000, Angers</address>
+              <span>0612345678</span>
+              <span class="text_black"><a href="mailto:exemple@exemple.com">exemple@exemple.com</a></span>
+            </div>
+          </div>
+        </div>
+        <!-- contient image profil et lien téléchargement cv -->
+        <div class="other_content">
+          <img src="assets/anonyme_photo.png" alt="profile picture">
+          <span class="text_white"><a href="">CV</a></span>
+        </div>
+      </div>
+    </div>
+    <!-- contient parcours scolaire et professionnel -->
+    <div class="career" id="career">
+      <h2>Parcours</h2>
+      <div class="informations_career">
+        <!-- contiens parcours scolaire -->
+        <div class="career_school">
+          <h3 class="title_school">Parcours Scolaire</h3>
+          <div class="school">
+            <span class="school_name">Lycée XXX</span>
+            <span class="degree">Bac S</span>
+            <time datetime="2014">2014</time>
+            <time datetime="2016">2016</time>
+          </div>
+          <div class="school">
+            <span class="school_name">Campus Academy</span>
+            <span class="degree">Bachelor informatique</span>
+            <time datetime="2016">2016</time>
+            <time datetime="2018">2018</time>
+          </div>
+        </div>
+        <!-- contient parcours professionnel -->
+        <div class="career_enterprise">
+          <h3 class="title_enterprise">Parcours Porfessionnel</h3>
+          <div class="enterprise">
+            <span class="enterprise_name">Entreprise X</span>
+            <span class="role">Technicien</span>
+            <p class="description">Lorem ipsum dolor sit amet. Ut eveniet enim sed quos tenetur ut fugiat voluptas quo voluptatibus voluptas</p>
+            <time datetime="2018-12">decembre 2018</time>
+            <time datetime="2019-05">mai 2019</time>
+          </div>
+          <div class="enterprise">
+            <span class="enterprise_name">Entreprise Y</span>
+            <span class="role">Technicien</span>
+            <p class="description">Lorem ipsum dolor sit amet. Ut eveniet enim sed quos tenetur ut fugiat voluptas quo voluptatibus voluptas</p>
+            <time datetime="2020-03">mars 2020</time>
+            <time datetime="2019-07">juillet 2019</time>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contient liste niveau hard skill et soft skill -->
+    <div class="skills" id="skills">
+      <h2>Compétences</h2>
+      <div class="informations_skills">
+        <!-- conteneur pour les hard skill -->
+        <div class="hard_skill">
+          <h3 class="title_hard_skill">Hard Skill</h3>
+          <div class="hard_skill_content">
+            <label for="hard_skill_1">Lorem ipsum</label>
+            <progress id="hard_skill_1" value="32" max="100"> 32% </progress>
+            <label for="hard_skill_2">Lorem ipsum</label>
+            <progress id="hard_skill_2" value="12" max="100"> 12% </progress>
+            <label for="hard_skill_3">Lorem ipsum</label>
+            <progress id="hard_skill_3" value="50" max="100"> 50% </progress>
+          </div>
+        </div>
+        <!-- conteneur pour les hard skill -->
+        <div class="soft_skill">
+          <h3 class="title_soft_skill">Soft Skill</h3>
+          <div class="soft_skill_content">
+            <label for="soft_skill_1">Lorem ipsum</label>
+            <progress id="soft_skill_1" value="32" max="100"> 32% </progress>
+            <label for="soft_skill_2">Lorem ipsum</label>
+            <progress id="soft_skill_2" value="12" max="100"> 12% </progress>
+            <label for="soft_skill_3">Lorem ipsum</label>
+            <progress id="soft_skill_3" value="50" max="100"> 50% </progress>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contient la liste des projets avec description et lien github -->
+    <div class="project" id="project">
+      <h2>Projets</h2>
+      <div class="project_list">
+        <!-- conteneur avec le projet -->
+        <div class="project_content">
+          <span class="project_name">Lorem ipsum</span>
+          <p class="description">Lorem ipsum dolor sit amet. Ut eveniet enim sed quos tenetur ut fugiat voluptas quo voluptatibus voluptas</p>
+          <span class="project_link"><a href="">github.io/me/project</a></span>
+        </div>
+        <!-- conteneur avec le projet -->
+        <div class="project_content">
+          <span class="project_name">Lorem ipsum</span>
+          <p class="description">Lorem ipsum dolor sit amet. Ut eveniet enim sed quos tenetur ut fugiat voluptas quo voluptatibus voluptas</p>
+          <span class="project_link"><a href="">github.io/me/project</a></span>
+        </div>
+        <!-- conteneur avec le projet -->
+        <div class="project_content">
+          <span class="project_name">Lorem ipsum</span>
+          <p class="description">Lorem ipsum dolor sit amet. Ut eveniet enim sed quos tenetur ut fugiat voluptas quo voluptatibus voluptas</p>
+          <span class="project_link"><a href="">github.io/me/project</a></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
